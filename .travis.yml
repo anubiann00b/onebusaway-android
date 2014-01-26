@@ -25,4 +25,4 @@ before_install:
     - mv $ANDROID_HOME/android-$ANDROID_OS_VERSION $ANDROID_HOME/build-tools/$ANDROID_BUILD_TOOLS_VERSION
 
 script:
-    - ./gradlew build -q
+    - ./gradlew assembleDebug
